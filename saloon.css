@@ -1,0 +1,88 @@
+.navbar-img {
+    height: 100px
+}
+.navbar {
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: transparent;
+}
+.navbar-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: grey;
+}
+.navbar-left {
+    margin-left: 20px;
+   
+}
+body {
+    background-image: url(https://www.shutterstock.com/image-photo/barber-making-hairstyle-confident-bearded-600w-1975664201.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    color: white; 
+    height: 300vh;
+}
+
+.myterms {
+    color: white;
+    margin: 10px;
+    font-size: 15PX;
+    font-weight: bold;
+}
+.myterms:hover {
+    color: rgb(13, 213, 13);
+}
+
+
+.heading{
+    color: rgb(13, 213, 13);
+    font-style: italic;
+    margin-top:80px;
+    text-align: center;
+}
+.sub-heading{
+    text-decoration: underline;
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: initial;
+}
+.home-secondpara {
+    text-align: center;
+    padding:20px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}  
+.home-para {
+    font-size: 20px;
+    margin-left: 20px;
+} 
+.our-services {
+    text-align: center;
+}
+.services-sub-cont {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px
+}
+.service-card {
+    border: 2px solid  rgb(13, 213, 13);
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+}
+.contact-us {
+    text-align: center;
+}
+.socialmedia-icon-img {
+    height: 40px;
+}
+
+
+
